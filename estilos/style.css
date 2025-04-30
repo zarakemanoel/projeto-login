@@ -39,7 +39,7 @@ section#login > div#imagem{
     background-size: cover ;
     height: 200px;
     background-repeat: no-repeat;
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 20px 20px 20px 20px;
     display: block;
 }
 section#login > div#formulario{
@@ -51,5 +51,43 @@ div#formulario > p{
     background-color: rgba(211, 211, 211, 0.308);
     padding: 5px;
     border-radius: 10px;
+}
+form > input[type=submit]{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: rgba(211, 211, 211, 0.548);
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+}
+form > div.campo{
+    background-color: rgba(255, 228, 196, 0.699);
+    padding: 7px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+form > input[type=submit]:hover{
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+form>a.botao{
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: rgba(211, 211, 211, 0.486);
+    border-radius: 5px;
+}
+form>a.botao:hover{
+    background-color: aquamarine;
+}
+form>a.botao>i{
+    font-size: 0.9em;
+    margin-top: 10px;
 }
 
