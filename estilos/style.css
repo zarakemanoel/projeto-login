@@ -27,7 +27,7 @@ section#login{
     transform: translate(-50%, -50%);
     background-color: white;
     width: 250px;
-    height: 500px;
+    height: 570px;
     border-radius: 20px;  
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.486);
     
@@ -69,10 +69,12 @@ form > div.campo{
     border-radius: 5px;
 }
 form > input[type=submit]:hover{
-    background-color: aquamarine;
+    background-color: rgba(127, 255, 212, 0.459);
     cursor: pointer;
 }
-
+div.campo{
+    color: rgb(56, 56, 56);
+}
 form>a.botao{
     margin-top: 10px;
     display: block;
@@ -84,7 +86,7 @@ form>a.botao{
     border-radius: 5px;
 }
 form>a.botao:hover{
-    background-color: aquamarine;
+    background-color: rgba(127, 255, 212, 0.39);
 }
 form>a.botao>i{
     font-size: 0.9em;
