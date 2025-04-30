@@ -29,7 +29,9 @@ section#login{
     width: 250px;
     height: 500px;
     border-radius: 20px;  
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.486);  
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.486);
+    
+    transition: width 0.2s, height 0.2s;
 }
 section#login > div#imagem{
     background: #5f2c82 url(../imagens/pexels-antonio-garcia-1662060750-30998506.jpg);
